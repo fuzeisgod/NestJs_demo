@@ -17,12 +17,45 @@
 3.  vscode 插件下载
 
     下载插件 `NestJs Snippets` 
+  
+4. 运行
+
+   ```
+   npm run start:dev
+   ```
+
+   
 
 
 
 ## 项目构成
 
 ​	模块 -> 控制器 -> 路由
+
+
+
+## nest 相关命令
+
++ 获取帮助
+
+  ```
+  nest -h
+  ```
+
++ 创建新模块
+
+  ```
+  nest g mo your-module-name
+  ```
+
++ 创建新控制器
+
+  ```
+  // 与模块同名
+  nest g co your-module-name
+  ```
+
+  
 
 
 
